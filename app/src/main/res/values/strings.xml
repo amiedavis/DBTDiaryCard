@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DBT Diary Card</string>
+    <string name="title_activity_feelings_rating">FeelingsRatingActivity</string>
+</resources>

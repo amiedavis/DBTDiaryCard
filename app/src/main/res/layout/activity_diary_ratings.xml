@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_diary_checklist"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="io.dbt.dbtdiarycard.DiaryRatingsActivity">
+<!--android:paddingBottom="@dimen/activity_vertical_margin"-->
+<!--android:paddingLeft="@dimen/activity_horizontal_margin"-->
+<!--android:paddingRight="@dimen/activity_horizontal_margin"-->
+<!--android:paddingTop="@dimen/activity_vertical_margin"-->
+
+<RelativeLayout
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="50dp"
+    android:id="@+id/relativeLayout">
+
+    <TextView
+        android:text="Urge"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Urge"
+        android:layout_centerVertical="true"/>
+
+    <SeekBar
+        android:id="@+id/seekBarUrge"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:max="5"
+        android:progress="0"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="100dp"
+    android:layout_centerHorizontal="true">
+
+    <TextView
+        android:text="Pain"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Pain"
+        android:layout_centerVertical="true"/>
+
+    <SeekBar
+        android:id="@+id/seekBarPain"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:max="5"
+        android:progress="0"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="150dp"
+    android:layout_centerHorizontal="true">
+
+    <TextView
+        android:text="Sad"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Sad"
+        android:layout_centerVertical="true"/>
+
+    <SeekBar
+        android:id="@+id/seekBarSad"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:max="5"
+        android:progress="0"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="200dp"
+    android:layout_centerHorizontal="true">
+
+    <TextView
+        android:text="Shame"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Shame"
+        android:layout_centerVertical="true"/>
+
+    <SeekBar
+        android:id="@+id/seekBarShame"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:max="5"
+        android:progress="0"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="250dp"
+    android:layout_centerHorizontal="true">
+
+    <TextView
+        android:text="Anger"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Anger"
+        android:layout_centerVertical="true"/>
+
+    <SeekBar
+        android:id="@+id/seekBarAnger"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:max="5"
+        android:progress="0"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="300dp"
+    android:layout_centerHorizontal="true">
+
+    <TextView
+        android:text="Fear"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Fear"
+        android:layout_centerVertical="true"/>
+
+    <SeekBar
+        android:id="@+id/seekBarFear"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:max="5"
+        android:progress="0"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="350dp"
+    android:layout_centerHorizontal="true">
+
+    <TextView
+        android:text="Joy"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Joy"
+        android:layout_centerVertical="true"/>
+
+    <SeekBar
+        android:id="@+id/seekBarJoy"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:max="5"
+        android:progress="0"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>
+
+
+<RelativeLayout
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="400dp"
+    android:id="@+id/relativeLayoutCheckboxes">
+
+    <CheckBox
+        android:text="Acted on urge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxAction"
+        android:gravity="center_vertical"/>
+
+    <CheckBox
+        android:text="Took medication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxMeds"
+        android:layout_below="@id/checkBoxAction"
+        />
+
+    <CheckBox
+        android:text="Used skills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxSkills"
+        android:layout_below="@id/checkBoxMeds"/>
+
+</RelativeLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:text="Submit"
+        android:layout_alignTop="@+id/relativeLayoutCheckboxes"
+        android:layout_alignRight="@+id/relativeLayoutCheckboxes"
+        android:layout_alignEnd="@+id/relativeLayoutCheckboxes"
+        android:layout_marginTop="24dp" />
+
+</RelativeLayout>
+

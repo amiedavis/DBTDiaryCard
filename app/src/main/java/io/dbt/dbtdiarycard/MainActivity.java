@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         final Button button = (Button) findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                setContentView(R.layout.activity_diary_ratings);
+                setContentView(R.layout.activity_diary_notes);
             }
         });
 

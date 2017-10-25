@@ -20,7 +20,8 @@
             android:name=".FeelingsRatingActivity"
             android:label="@string/title_activity_feelings_rating"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".DiaryRatingsActivity"></activity>
+        <activity android:name=".DiaryRatingsActivity" />
+        <activity android:name=".DiaryNotesActivity"></activity>
     </application>
 
 </manifest>
